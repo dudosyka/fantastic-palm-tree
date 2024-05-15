@@ -15,11 +15,12 @@ class PinokioService:
 
     api_url = "http://127.0.0.1:5000/v1/completions"
     data = {
+        "prompt": "",
         "max_new_tokens": 216,
         "max_tokens": 216,
         "preset": 'None',
         "do_sample": True,
-        "temperature": 0.81,
+        "temperature": 0.61,
         "top_p": 1,
         "typical_p": 1,
         "epsilon_cutoff": 0,
@@ -48,20 +49,23 @@ class PinokioService:
     }
 
     def generate(self, model: Model, member: Member, old: list[Message]) -> str | None:
-        prompt = model.description
+        prompt = model.description+"\n"
         for message in old:
             name = ""
-            if message.direction == Direction.FROM_MODEL.value:
-                name = model.name
-            else:
-                name = member.name
-            prompt += f"\n{name}:{message.message}"
+            if not (message.direction == Direction.FROM_MODEL.value):
+                name = "You:"
+            prompt += f"{name}{message.message}\n"
 
+        prompt += f"\n{model.name}:"
         headers = {
             "Content-Type": "application/json"
         }
-        self.data.__setattr__("prompt", prompt)
+        self.data["prompt"] = prompt
+        #self.data["stopping_strings"] = [member.name + ':', '<|endoftext|>', '\\end']
+        #self.data["stop"] = [member.name + ':', '<|endoftext|>', '\\end']
         response = self.session.post(self.api_url, data=json.dumps(self.data), headers=headers)
+
+        print(self.data)
 
         if response.ok:
             result = response.json()

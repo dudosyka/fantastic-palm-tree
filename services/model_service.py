@@ -15,8 +15,12 @@ class ModelService:
         return self.session.scalars(model_query).first()
 
     def create(self, name: str, description: str) -> Model:
-        model_inst = Model(name=name, description=description)
-        self.session.add(model_inst)
+        model_inst = self.get_one(name)
+        if model_inst is None:
+            model_inst = Model(name=name, description=description)
+            self.session.add(model_inst)
+        else:
+            model_inst.description = description
         self.session.commit()
         return model_inst
 

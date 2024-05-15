@@ -9,7 +9,7 @@ class Model(Base):
     __tablename__ = "model"
     id: Mapped[int] = mapped_column(primary_key=True)
     name: Mapped[str] = mapped_column(String(100))
-    description: Mapped[str] = mapped_column(String(2048))
+    description: Mapped[str] = mapped_column(String(20048))
     def __repr__(self) -> str:
         return f"Model(id={self.id!r}, name={self.name!r}, description={self.description!r})"
 

@@ -9,6 +9,11 @@ class Direction(Enum):
     FROM_MODEL = 2
 
 
+class ChatScope(Enum):
+    GLOBAL = "global"
+    DM = "dm"
+
+
 class Message(Base):
     __tablename__ = "message"
     id: Mapped[int] = mapped_column(primary_key=True)
@@ -16,6 +21,8 @@ class Message(Base):
     model_id: Mapped[int] = mapped_column(ForeignKey("model.id"))
     direction: Mapped[int] = mapped_column(Integer)
     message: Mapped[str] = mapped_column(String(2048))
+    scope: Mapped[str] = mapped_column(String(64))
+
 
     def __repr__(self) -> str:
-        return f"Model(id={self.id!r}, direction={self.direction}, model={self.model_id}, member={self.member_id}, message={self.message!r})"
+        return f"Model(id={self.id!r}, direction={self.direction}, model={self.model_id}, member={self.member_id}, message={self.message!r}, scope={self.scope})"

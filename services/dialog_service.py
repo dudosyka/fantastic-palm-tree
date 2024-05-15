@@ -2,7 +2,7 @@ from sqlalchemy import select
 from sqlalchemy.orm import Session
 
 from models.member import Member
-from models.message import Message, Direction
+from models.message import Message, Direction, ChatScope
 from models.model import Model
 from services.model_service import ModelService
 from services.member_service import MemberService
@@ -24,12 +24,14 @@ class DialogService:
             select(Message).where(Message.member_id == member.id).where(Message.model_id == model.id)
         ).all())
 
-    def append_message(self, member: Member, model: Model, message: str, direction: Direction) -> Message:
-        message_inst = Message(member_id=member.id, model_id=model.id, message=message, direction=direction.value)
-        self.session.add(message_inst)
-        return message_inst
+    def create_message(self, member: Member, model: Model, message: str, direction: Direction, scope: str) -> Message:
+        return Message(member_id=member.id, model_id=model.id, message=message, direction=direction.value, scope=scope)
 
-    def reply(self, model_name: str, member_name: str, message: str) -> str | None:
+    def append_message(self, message: Message) -> Message:
+        self.session.add(message)
+        return message
+
+    def reply(self, model_name: str, member_name: str, message: str, scope: str) -> str | None:
         member_inst = self.member_service.get_one(member_name)
         if member_inst is None:
             member_inst = self.member_service.create(member_name)
@@ -38,12 +40,22 @@ class DialogService:
         if model_inst is None:
             return None
 
-        self.append_message(member_inst, model_inst, message, Direction.FROM_MEMBER)
-        dialog = self.get_dialog(member_inst, model_inst)
-
+        message = self.create_message(member_inst, model_inst, message, Direction.FROM_MEMBER, scope)
         pinokio_service = PinokioService()
-        generated = pinokio_service.generate(model_inst, member_inst, dialog)
 
-        self.append_message(member_inst, model_inst, generated, Direction.FROM_MODEL)
+        if not (scope == ChatScope.GLOBAL.value):
+            self.append_message(message)
+            dialog = self.get_dialog(member_inst, model_inst)
+            generated = pinokio_service.generate(model_inst, member_inst, dialog)
+        else:
+            generated = pinokio_service.generate(model_inst, member_inst, [message])
+
+        if generated is not None:
+            generated.replace("+", "")
+            generated.replace("'", "")
+
+        answer = self.create_message(member_inst, model_inst, generated, Direction.FROM_MODEL, scope)
+
+        self.append_message(answer)
         self.session.commit()
         return generated

