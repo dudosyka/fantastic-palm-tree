@@ -1,6 +1,9 @@
 import json
+import asyncio
 
 from flask import Flask, request
+from flask_cors import CORS
+
 from sqlalchemy import create_engine
 from sqlalchemy.orm import Session
 
@@ -28,7 +31,7 @@ def json_error(status: str, message: str):
 
 
 app = Flask(__name__)
-
+CORS(app)
 
 @app.route("/model", methods=["POST"])
 def create_model_route():
@@ -55,16 +58,33 @@ def get_model_route(name):
     return model_inst.json_repr()
 
 
+global processing
+processing = False
+
+
 @app.route('/reply', methods=["POST"])
 def reply():
+    global processing
     data = request.get_json()
-    member_name = data.get("member_name")
+    while processing:
+        data = data
     model_name = data.get("model_name")
     message = data.get("message")
+    member_name = data.get("member_name")
+    scope = data.get("scope")
+    vf = data.get("vf")
+    
+    if vf != "vf_req":
+        return "Go out"
 
-    result = dialog_service.reply(member_name, model_name, message)
+    processing = True
+
+    result = dialog_service.reply(model_name=model_name, member_name=member_name, message=message, scope=scope)
     if result is None:
+        processing = False
         return json_error("error", "Reply generation error")
+
+    processing = False
 
     return {
         "status": "success",
@@ -73,4 +93,4 @@ def reply():
 
 
 if __name__ == '__main__':
-    app.run()
+    app.run(port=8081, host="0.0.0.0")
